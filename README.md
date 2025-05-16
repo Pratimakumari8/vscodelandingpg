@@ -5,7 +5,7 @@ This is a responsive landing page inspired by the official [Visual Studio Code](
 
 ## 🔗 Live Demo
 
-[Click here to view the live demo](#)  
+[Click here to view the live demo](#https://vscodelandingpg.netlify.app/)  
 *(Replace `#` with your deployed link)*
 
 ---

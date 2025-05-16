@@ -10,12 +10,6 @@ This is a responsive landing page inspired by the official [Visual Studio Code](
 
 ---
 
-## 📸 Preview
-
-![VS Code Landing Page Screenshot](#)  
-*(Add a screenshot or demo GIF here if possible)*
-
----
 
 ## 🛠️ Tech Stack
 

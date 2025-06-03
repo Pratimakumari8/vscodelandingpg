@@ -13,13 +13,14 @@
         padding-right: 130px;
         margin-top: 10px;
         display: flex;
+        height:100%;
         justify-content: space-between;
-        background-color: #0D1117;;
+        box-sizing: border-box;
       "
     >
       <div>
         <img
-          style="width: 20px; height: 20px; padding-top: 5px"
+          style="width: 25px; height: 25px; padding-top: none ; "
           src="https://code.visualstudio.com/assets/images/code-stable.png"
         />
 
@@ -31,6 +32,8 @@
             color: white;
             padding-left: 8px;
             padding-left: 8px;
+            margin-top: 50px;
+            height:100%;
           "
           >Visual Studio Code</span
         >
@@ -147,7 +150,7 @@
       <p style="font-size: 11px; color: #9ba3b4; margin-top: 4px">
         By using VS Code, you agree to its license and privacy statement.
       </p>
-      <div style="position: relative; margin-top: 20px">
+      <div style="position: relative; margin-top: 20px; ">
         <video width="1008" height="639" controls class="videovs">
           <source
             src="https://code.visualstudio.com/assets/home/hero-dark-lg.webm"
@@ -242,6 +245,155 @@
           <img src = "https://code.visualstudio.com/assets/home/swimlane-nes-dark.webp">
         </div>
       </div>
-
+      <div class="codeinanylanguage">
+        <div class = "heading3">
+          <h2>Code in any language</h2>
+          <p>VS Code supports almost every major programming language. Several ship in the box, like JavaScript, 
+            TypeScript, CSS, and HTML, 
+            but extensions for others can be found in the VS Code Marketplace.</p>
+        </div>
+        <div class = "languagepanel">
+          <div class = "flex">
+            <img src = "https://code.visualstudio.com/assets/home/language-js.png" alt = "JavaScript">
+            <code class = "name" >JavaScript</code>
+          </div>
+          <div  class = "flex">
+            <img src = "https://code.visualstudio.com/assets/home/language-cs.png">
+            <code class="name">C#</code>
+          </div>
+          <div  class = "flex">
+            <img src = "https://code.visualstudio.com/assets/home/language-java.png">
+            <code class="name">Java</code>
+          </div>
+          <div  class = "flex">
+            <img src = "https://code.visualstudio.com/assets/home/language-markdown.png">
+            <code class = "name">Markdown</code>
+          </div>
+          <div  class = "flex">
+            <img src = "https://code.visualstudio.com/assets/home/language-ts.png">
+            <code class = "name">TypeScript</code>
+          </div>
+          <div  class = "flex">
+            <img src = "https://code.visualstudio.com/assets/home/language-cpp.png">
+            <code class = "name">Cpp</code>
+          </div>
+          <div  class = "flex">
+            <img src = "https://code.visualstudio.com/assets/home/language-json.png">
+            <code class = "name">JSON</code>
+          </div>
+          <div  class = "flex">
+            <img src = "https://code.visualstudio.com/assets/home/language-powershell.png">
+            <code class = "name">Poweshell</code>
+          </div>
+          <div  class = "flex">
+            <img src = "https://code.visualstudio.com/assets/home/language-python.png">
+            <code class = "name">Python</code>
+          </div>
+          <div  class = "flex">
+            <img src = "https://code.visualstudio.com/assets/home/language-html.png">
+            <code class = "name">HTML</code>
+          </div>
+          <div  class = "flex">
+            <img src = "https://code.visualstudio.com/assets/home/language-php.png">
+            <code class = "name">PHP</code>
+          </div>
+          <div  class = "flex">
+            <img src = "https://code.visualstudio.com/assets/home/language-yaml.png">
+            <code class = "name">YAML</code>
+          </div>
+        </div>
+      </div>
+      <div class = "newhard">
+        <div class = "heading4">
+          <h2>Fully customizable</h2>
+          <p>Customize your VS Code UI and layout so that it fits your coding style.</p>
+          <p><a href = "/">Color themes</a> let you modify the colors in VS Code's user interface to suit your 
+            preferences and work environment.</p>
+            <p><a href = "/">Settings Sync</a> enables you to share your user settings across your VS Code 
+              instances with the Settings Sync feature.</p>
+              <p><a href = "/">Profiles</a> let you create sets of customizations and quickly 
+                switch between them or share them with others.</p>
+        </div>
+        <div class = "img1">
+          <img src = "https://code.visualstudio.com/assets/home/swimlane-customized.png">
+        </div>
+      </div>
+      <div class = "newhard">
+        <div class = "heading4">
+          <h2>Code anywhere</h2>
+          <p>Code wherever you're most productive, whether you're connected to the cloud, a remote repository, or in the browser with VS Code for the Web (vscode.dev).</p>
+          <p><a href = "/">Built-in Source Control</a> Built-in Source Control empowers you with Git support out-of-the-box. Many other source control providers are available through extensions.</p>
+              <p><a href = "/">GitHub Codespaces</a> GitHub Codespaces provides cloud-powered development environments for any activity - whether it's a long-term project, or a short-term task like reviewing a pull request.</p>
+        </div>
+        <div class = "img2">
+          <img src = "https://code.visualstudio.com/assets/home/swimlane-anywhere.png">
+        </div>
+      </div>
+      <div class = "heading5">
+        <center>
+        <h2>Code with rich features</h2>
+        <p>There's a lot more to an editor. Whether it's using built-in features or rich extensions, there's something for everyone.</p>
+        </center>
+        </div>
+        <div class = "laststep">
+          <div class = "last">
+            <img src = "https://code.visualstudio.com/assets/icons/codicon-terminal.svg">
+            <h3>Integrated Terminal</h3>
+            <p>Use your favorite shell whether it's zsh, pwsh, or git bash, all inside the editor.</p>
+          </div>
+          <div class = "last">
+            <img src="https://code.visualstudio.com/assets/icons/codicon-debug.svg">
+            <h3>Run code</h3>
+            <p>Run and debug your code without leaving your editor</p>
+          </div>
+          <div class = "last">
+            <img src = "https://code.visualstudio.com/assets/icons/codicon-version-control.svg">
+            <h3>Version control</h3>
+            <p>Built-in support for git and many other source control providers.</p>
+          </div>
+          <div class = "last">
+            <img src = "https://code.visualstudio.com/assets/icons/codicon-build-tasks.svg">
+            <h3>Build tasks</h3>
+            <p>Run tools and analyze their results from within VS Code.</p>
+          </div>
+          <div class = "last">
+            <img src = "https://code.visualstudio.com/assets/icons/codicon-local-history.svg">
+            <h3>Local history</h3>
+            <p>Never lose your changes with automatically tracked local history.</p>
+          </div>
+          <div class = "last">
+            <img src = "https://code.visualstudio.com/assets/icons/codicon-themes.svg">
+            <h3>Themes</h3>
+            <p>Your theme is an extension of your personality.Add some flair to your editor and add your touch.</p>
+          </div>
+          <div class="last">
+            <img src = "https://code.visualstudio.com/assets/icons/codicon-accessibility.svg">
+            <h3>Accessibility</h3>
+            <p>Optimized experience for screen readers,high contrast themes, and keyboard-only navigation.</p>
+          </div>
+          <div class = "last">
+            <img src = "https://code.visualstudio.com/assets/icons/codicon-web.svg">
+            <h3>Web support</h3>
+            <p>Whether you are on your phone, tablet, or desktop, you can access your code from anywhere.</p>
+          </div>
+        </div>
+        <div class = "footer">
+            <div class = "footer1">
+            <div class = "images1">
+              <img src="https://code.visualstudio.com/assets/icons/x-icon.svg">
+              <img src = "https://code.visualstudio.com/assets/icons/github-icon.svg">
+              <img src = "https://code.visualstudio.com/assets/icons/youtube-icon.svg">
+            </div>
+            <div class="span">
+              <span>Support</span>
+              <span>Privacy</span>
+              <span>Terms of Use</span>
+              <span>License</span>
+            </div>
+            </div>
+            <div>
+              <img src="https://code.visualstudio.com/assets/icons/microsoft.svg"> 
+            </div>
+        </div>
   </body>
 </html>
